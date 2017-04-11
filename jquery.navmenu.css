@@ -1,0 +1,79 @@
+﻿/*
+*==============================================================
+*  以下设置为配置项，可以自己修改
+*==============================================================
+*/
+
+/* 一级菜单 */
+.mainMenu
+{
+    background: #D6182E;
+    border: 1px solid #B21426;
+}
+
+/* 一级菜单条目 */
+.mainMenuItem
+{
+    padding: 8px;
+}
+
+/* 一级菜单条目的文本 */
+.mainMenu a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* 一级菜单鼠标悬停 */
+.mainMenuItemHover
+{
+    background: white;
+    padding: 8px;
+}
+
+/* 一级菜单鼠标悬停时的文本 */
+.mainMenuItemHover a
+{
+    color: #d6182e;
+    font-weight: bold;
+}
+
+
+
+/* 子菜单 */
+.subMenu
+{
+    width: 800px;
+    min-height: 200px;
+    background: white;
+    border: 1px solid #b21426; /*宽度最好与一级菜单相同*/
+}
+
+/* 子菜单文本 */
+.subMenu a
+{
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    border-left: 1px solid #e0e0e0;
+    padding:0 8px;
+    line-height: 22px;
+}
+
+/* 悬停时的子菜单文本 */
+.subMenu a:hover
+{
+    color: #b21426;
+}
+
+
+/*
+*==============================================================
+*  以下设置请不要修改
+*==============================================================
+*/
+.subMenu dl dd
+{
+    float: left;
+}

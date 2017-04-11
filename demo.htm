@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jquery-1.12.1.min.js" type="text/javascript"></script>
+    <link href="jquery.navmenu.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.navmenu.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            
+            var testMenuData = [
+                {
+                    "id":"1",
+                    "menu": "menu1",
+                    "url": "test.htm",
+                    "target":"_blank",
+                    "children": [
+                        { 
+                            "id": "1",
+                            "menu":"sub1",
+                            "url":"test.htm",
+                            "target":"_blank"
+                        },
+                        {
+                            "id": "2",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "3",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "menu": "menu2",
+                    "url": "test.htm",
+                    "target": "_blank",
+                    "children": [
+                        {
+                            "id": "4",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "5",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "6",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "7",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "8",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "9",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "10",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "11",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "12",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "13",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "14",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "15",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "16",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "17",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "18",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "19",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "20",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "21",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "22",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "23",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "24",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "25",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "26",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "27",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "menu": "menu3",
+                    "url": "test.htm",
+                    "target": "_blank",
+                    "children": [
+                        {
+                            "id": "28",
+                            "menu": "sub1",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "29",
+                            "menu": "sub2",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        },
+                        {
+                            "id": "30",
+                            "menu": "sub3",
+                            "url": "test.htm",
+                            "target": "_blank"
+                        }
+                    ]
+                }
+            ];
+
+            $("#navmenu").navmenu(testMenuData);
+
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div>
+        <div id="navmenu" style="float: left;width: 500px;">
+        </div>
+        <div style=" width: 800px; height: 300px; float: left; margin-left: 10px;background: #2f4f4f;color:white;font-size: 40px;text-align: center;padding-top:80px;">
+            无所不在的广告！
+        </div>
+        <div style="clear: both">
+            
+        </div>
+    </div>
+</body>
+</html>
